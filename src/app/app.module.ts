@@ -10,6 +10,7 @@ import { FavoritesComponent } from './favorites/favorites.component';
 import { MyPostsComponent } from './my-posts/my-posts.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LoginpComponent } from './auth/loginp/loginp.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { LoginpComponent } from './auth/loginp/loginp.component';
     MyPostsComponent,
     SignUpComponent,
     LoginpComponent,
+    HomeComponent,
 
   ],
   imports: [
