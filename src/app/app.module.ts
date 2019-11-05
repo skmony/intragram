@@ -9,8 +9,9 @@ import { FollowingComponent } from './following/following.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { MyPostsComponent } from './my-posts/my-posts.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
-import { LoginpComponent } from './auth/loginp/loginp.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule} from '@angular/forms';
+import { LoginComponent } from './auth/login/login.component';
 
 
 @NgModule({
@@ -22,13 +23,14 @@ import { HomeComponent } from './home/home.component';
     FavoritesComponent,
     MyPostsComponent,
     SignUpComponent,
-    LoginpComponent,
     HomeComponent,
+    LoginComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

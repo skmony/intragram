@@ -5,6 +5,8 @@ import { AllPostsComponent } from './all-posts/all-posts.component';
 import { FollowingComponent } from './following/following.component';
 import { MyPostsComponent } from './my-posts/my-posts.component';
 import { FavoritesComponent } from './favorites/favorites.component';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 const routes: Routes = [
@@ -13,9 +15,8 @@ const routes: Routes = [
   {path:'following', component:FollowingComponent},
   {path:'myposts', component:MyPostsComponent},
   {path:'favorites', component:FavoritesComponent},
-  {path:'', component:HomeComponent},
-
-
+  {path:'signup',component:SignUpComponent},
+  {path:'login',component:LoginComponent}
 
 ];
 
